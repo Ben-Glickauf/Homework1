@@ -4,23 +4,44 @@ format: html
 editor: visual
 ---
 
-## Quarto
+# Questions
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+1.  What do you think being a data scientist is about?
 
-## Running Code
+-   I believe being a data scientist is about the manipulation and visualization of data with the goal of finding trends or patterns, leading us to a given conclusion of how a certain variable may influence the data
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+2.  What differences/similarities do you see between data scientists and statisticians?
+
+-   Both data scientists and statisticians center their work around data, but data scientists focus more on programming and predictive modeling, while statisticians focus more on analyzing data and quantifying uncertainty in their inferences
+
+3.  How do you view yourself in relation to these two areas?
+
+-   I view myself as someone who can work in either condition. To me, data science is a broader field that builds upon statistics, so having a solid statistical background is something I feel is very important for most, if not all, data science roles.
+
+# Investigating the Object `y`
 
 ```{r}
-1 + 1
+y <- density(iris$Petal.Width)
 ```
 
-You can add options to executable code like this
+Here we check the type, class, and structure of the object `y`
 
 ```{r}
 #| echo: false
-2 * 2
+typeof(y)
+class(y)
+str(y)
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+```{r}
+#| echo: false
+plot(y)
+```
+
+
+
+
+
+
+
+
