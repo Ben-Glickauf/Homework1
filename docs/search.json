@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "DataScience.html",
-    "href": "DataScience.html",
+    "objectID": "homework1_file.html",
+    "href": "homework1_file.html",
     "title": "Data Science",
     "section": "",
     "text": "Questions\n\nWhat do you think being a data scientist is about?\n\n\nI believe being a data scientist is about the manipulation and visualization of data with the goal of finding trends or patterns, leading us to a given conclusion of how a certain variable may influence the data\n\n\nWhat differences/similarities do you see between data scientists and statisticians?\n\n\nBoth data scientists and statisticians center their work around data, but data scientists focus more on programming and predictive modeling, while statisticians focus more on analyzing data and quantifying uncertainty in their inferences\n\n\nHow do you view yourself in relation to these two areas?\n\n\nI view myself as someone who can work in either condition. To me, data science is a broader field that builds upon statistics, so having a solid statistical background is something I feel is very important for most, if not all, data science roles.\n\n\n\nInvestigating the Object y\n\ny <- density(iris$Petal.Width)\n\nHere we check the type, class, and structure of the object y\n\n\n[1] \"list\"\n\n\n[1] \"density\"\n\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\""
